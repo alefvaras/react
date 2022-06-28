@@ -1,0 +1,11 @@
+.custom_btn{
+    background-color: green;
+}
+
+.custom_btn2{
+    color: red;
+}
+
+.custom_btn:hover{
+    background-color: black;
+}
