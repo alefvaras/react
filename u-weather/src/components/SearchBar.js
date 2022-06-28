@@ -1,10 +1,7 @@
 const SearchBar = (props) => {
   // acá va tu código
-  return (<div>
-    <input type="text" placeholder="Ciudad..."/>
-
-    <button onClick={()=>props.onSearch("santiago")} >agregar</button>
-    </div>
-)};
+  // tip, puedes usar un map
+  return <div>SearchBar Component</div>;
+};
 
 export default SearchBar;
