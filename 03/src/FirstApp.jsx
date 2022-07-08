@@ -14,8 +14,8 @@ const getMessage = () => 'hola yoda';
 // }
     return (
         <>
-            <h1>{title}</h1>
-            <div>{JSON.stringify(newMessage)}</div>
+            <h1 data-testid="test-title">{title}</h1>
+            {/* <div>{JSON.stringify(newMessage)}</div> */}
             <p>{subtitulo }</p>
             <p>{getMessage()}</p>
         </>

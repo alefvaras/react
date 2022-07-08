@@ -13,6 +13,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         {/* <Name  subtitulo={1+9}/> */}
         {/* <Name title />
         <HelloWorld/> */}
-        <CounterApp value={5}/>
+       <CounterApp value={100}/>
+   
+   {/* <Name title="titulo"/> */}
     </React.StrictMode>
 ) 
